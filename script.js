@@ -53,7 +53,7 @@ function playGame(playerChoice) {
     "right-entry 1s forwards, head-turn 1s forwards 2s";
 
   setTimeout(() => {
-    replay.style.display = "block";
+    
     if (playerChoice === computerChoiceName) {
       h3.innerText = "Draw!";
       rightImg.style.display = "none";
