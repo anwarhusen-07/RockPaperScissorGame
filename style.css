@@ -99,6 +99,7 @@ button {
   display: none;
   font-size: 2rem;
   bottom: 5rem;
+  z-index:100;
 }
 
 .h3display {
