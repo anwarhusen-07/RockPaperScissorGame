@@ -5,12 +5,14 @@
   padding: 0;
   box-sizing: border-box;
   overflow: hidden;
+  
 }
 
 body {
   height: 100vh;
   width: 100vw;
   position: relative;
+  -webkit-tap-highlight-color: transparent;
 }
 
 html {
@@ -467,7 +469,7 @@ h3{
     font-size: 13rem;
   }
   pre{
-    left: 20vw;
+    left: 21.5vw;
   }
 
   #win,

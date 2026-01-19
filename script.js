@@ -20,6 +20,7 @@ winCount = 0;
 lostCount = 0;
 drawCount = 0;
 
+// Create Image objects for each choice (left side)
 const rockLeftImage = new Image();
 rockLeftImage.src = "/images/rock-left.png";
 
@@ -56,6 +57,7 @@ scissorLeftImage.onload = () => {
   leftImgElement.style.display = "block";
 };
 
+
 rockRightImage.onload = () => {
   const rightImgElement = document.querySelector(".right-img");
   rightImgElement.src = rockRightImage.src;
@@ -73,6 +75,8 @@ scissorRightImage.onload = () => {
   rightImgElement.src = scissorRightImage.src;
   rightImgElement.style.display = "block";
 };
+
+
 
 rock.addEventListener("click", () => {
   navigator.vibrate(100);
