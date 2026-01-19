@@ -620,6 +620,7 @@ h3{
 @media screen and (max-width: 200px){
   html{
     font-size: 5%;
+    margin-left: 2px;
   }
   h3{
     font-size: 25rem;
